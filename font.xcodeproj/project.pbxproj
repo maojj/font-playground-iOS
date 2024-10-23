@@ -17,6 +17,8 @@
 		20DE50442CC8D2CA00768ADD /* fontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DE50432CC8D2CA00768ADD /* fontTests.m */; };
 		20DE504E2CC8D2CA00768ADD /* fontUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DE504D2CC8D2CA00768ADD /* fontUITests.m */; };
 		20DE50502CC8D2CA00768ADD /* fontUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DE504F2CC8D2CA00768ADD /* fontUITestsLaunchTests.m */; };
+		20DE505D2CC8D3B800768ADD /* CustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DE505C2CC8D3B800768ADD /* CustomTextView.m */; };
+		20DE50602CC8DD0100768ADD /* GasoekOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20DE505F2CC8DD0100768ADD /* GasoekOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		20DE50492CC8D2CA00768ADD /* fontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DE504D2CC8D2CA00768ADD /* fontUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fontUITests.m; sourceTree = "<group>"; };
 		20DE504F2CC8D2CA00768ADD /* fontUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fontUITestsLaunchTests.m; sourceTree = "<group>"; };
+		20DE505C2CC8D3B800768ADD /* CustomTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextView.m; sourceTree = "<group>"; };
+		20DE505E2CC8D42F00768ADD /* CustomTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextView.h; sourceTree = "<group>"; };
+		20DE505F2CC8DD0100768ADD /* GasoekOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GasoekOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +115,14 @@
 				20DE502B2CC8D2C900768ADD /* SceneDelegate.m */,
 				20DE502D2CC8D2C900768ADD /* ViewController.h */,
 				20DE502E2CC8D2C900768ADD /* ViewController.m */,
+				20DE505F2CC8DD0100768ADD /* GasoekOne-Regular.ttf */,
 				20DE50302CC8D2C900768ADD /* Main.storyboard */,
 				20DE50332CC8D2CA00768ADD /* Assets.xcassets */,
 				20DE50352CC8D2CA00768ADD /* LaunchScreen.storyboard */,
 				20DE50382CC8D2CA00768ADD /* Info.plist */,
 				20DE50392CC8D2CA00768ADD /* main.m */,
+				20DE505C2CC8D3B800768ADD /* CustomTextView.m */,
+				20DE505E2CC8D42F00768ADD /* CustomTextView.h */,
 			);
 			path = font;
 			sourceTree = "<group>";
@@ -239,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20DE50602CC8DD0100768ADD /* GasoekOne-Regular.ttf in Resources */,
 				20DE50372CC8D2CA00768ADD /* LaunchScreen.storyboard in Resources */,
 				20DE50342CC8D2CA00768ADD /* Assets.xcassets in Resources */,
 				20DE50322CC8D2C900768ADD /* Main.storyboard in Resources */,
@@ -267,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20DE502F2CC8D2C900768ADD /* ViewController.m in Sources */,
+				20DE505D2CC8D3B800768ADD /* CustomTextView.m in Sources */,
 				20DE50292CC8D2C900768ADD /* AppDelegate.m in Sources */,
 				20DE503A2CC8D2CA00768ADD /* main.m in Sources */,
 				20DE502C2CC8D2C900768ADD /* SceneDelegate.m in Sources */,

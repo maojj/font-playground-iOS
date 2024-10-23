@@ -6,6 +6,8 @@
 //
 
 #import "ViewController.h"
+#import "CustomTextView.h"
+
 
 @interface ViewController ()
 
@@ -15,7 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    for (NSString *fontfamilyname in [UIFont familyNames]) {
+        NSLog(@"familyName:'%@'",fontfamilyname);
+        for(NSString *fontName in [UIFont fontNamesForFamilyName:fontfamilyname])
+        {
+            NSLog(@"  fontName:'%@'",fontName);
+        }
+        NSLog(@"***********");
+    }
+    
+    
+    CGRect viewFrame = CGRectMake(10, 10, 500, 500);
+    CustomTextView *customTextView = [[CustomTextView alloc] initWithFrame:viewFrame];
+    [self.view addSubview:customTextView];
 }
 
 
